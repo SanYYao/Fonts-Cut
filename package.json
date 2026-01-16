@@ -4,5 +4,14 @@
     "cn-font-split": "^7.4.1",
     "dotenv": "^17.2.3",
     "mime-types": "^3.0.2"
+  },
+  "scripts": {
+    "split": "node batch-split.js",
+    "deploy": "node deploy.js",
+    "index": "node generate-cloud-index.js",
+    "latest-index": "node generate-local-full-index.js",
+    
+    "//": "👇 现在的 Fire 更加智能，没货它不开枪",
+    "fire": "node fire.js"
   }
 }
